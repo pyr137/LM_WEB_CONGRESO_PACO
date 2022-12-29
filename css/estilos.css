@@ -1,0 +1,261 @@
+
+.containercabecera{
+    background-color: #CCEAF4;
+}
+
+.cabeceraestrecha{
+    margin: auto;
+    display: flex;
+    width: 670px;
+}
+
+.cabeceratexto{
+    text-align: right;
+    margin: auto;
+    width: 500px;
+}
+
+.cabeceralogo{
+    margin: auto 50px;
+
+}
+
+.logo{
+    width: 120px;
+    height: 80px;
+    transform: rotate(-20deg);  
+}
+
+.cabeceratitulo{
+    color: #A9A9A9;
+    font-size: 28px;
+}
+
+.cabecerafecha{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+
+.cabeceralugar{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+
+}
+
+.containerinfo{
+    margin: auto;
+    width: fit-content;
+    padding: 20px;
+}
+
+.h2titulosecciones{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.informacion{
+    margin: auto;
+    display: flex ;
+}
+
+.infodescripcion{
+    width: 450px;
+    padding-right: 30px;
+    text-align: justify;
+    margin: auto;
+}
+
+.video{
+    width: 320px;
+    height: 180px;
+}
+
+.containerbloqueazul{
+    background-color: #648da0;
+}
+
+.bloqueazul{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+
+.listadondeycuando{
+    width: 400px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.listaindex{
+    padding: 0;
+}
+
+.h2dondeycuando{
+    border-bottom: yellow;
+    border-bottom-style: dotted;
+
+}
+
+.textoentradaconinscripcion{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eventosinteresantes{
+    margin: 20px auto;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.evento{
+    width: 280px;
+    text-align: center;
+    
+}
+
+.imagenevento{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.bloquefooter{
+    width: fit-content;
+    margin: auto;
+    height: auto;
+    padding: 30px 0;
+}
+.footertext{
+    width: fit-content;
+    text-align: left;
+    font-size: 16px;
+}
+
+.containermenu{
+    background-color: #114358;
+    width: auto;
+    
+}
+
+.menu{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 2em;
+    list-style: none;
+    padding: 10px;
+}
+
+.a-nav{
+    color: #F2AA1F;
+    text-decoration: none;    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.a-nav:hover{
+    color: white;
+    background-color: black;
+}
+
+.listaprogramacion{
+    width: 300px;
+    margin: auto;
+    font-size: 16px;
+}
+
+.bloqueprogramacion{
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+    
+}
+.h2programacion{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.h3fechaprog{
+    text-shadow: 0 0 10px blueviolet;
+
+}
+
+#enviar {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input:invalid {
+    border-color: red;
+  }
+
+  input:required:valid {
+    border-color: green;
+  }
+
+  .tablaprogramacion tr:nth-child(odd){
+    background-color: rgb(241, 121, 121);
+  }
+
+  .pietabla{
+    text-align: center;
+    background-color: #FF3B3F;
+    font-size: 14px;
+    border: #CCEAF4 solid 3px;
+  }
+
+  .titulotabla{
+    text-align: center;
+    background-color: #0A3143;
+    color: white;
+    font-size: 18px;
+  }
+
+  .primerafilatabla{
+    background-color: #FF3B3F;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .tablaubicacion{
+    border: #CCEAF4 solid 3px;
+  }
+
+  .fechatabla{
+    width: 150px;
+  }
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+/****GOOGLE FONTS
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+****/

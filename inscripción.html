@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>XXI CONGRESO DE PERIODISMO DEL CEEDCV</title>
+    <script src="https://kit.fontawesome.com/4a900f4f10.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@1,700&family=Libre+Baskerville:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="containercabecera">
+    <div class="cabeceraestrecha">
+        <div class="cabeceralogo"> 
+        <img class="logo" src="media/logo1.png" alt="logo">
+        </div>
+        <div class="cabeceratexto">
+            <h1 class="cabeceratitulo">XXI CONGRESO DE PERIODISMO DEL CEEDCV</h1>
+            <p class="cabecerafecha">Valencia, 11 al 14 de Marzo de 2023</p>
+            <p class="cabeceralugar">Palacio de Congresos</p>
+        </div>
+    </div>
+</header>
+<nav class="containermenu">
+    <ul class="menu">
+    <li><a class="a-nav" href="index.html">Inicio</a></li>
+    <li><a class="a-nav" href="programación.html">Programación</a></li>
+    <li><a class="a-nav" href="inscripción.html">Registro a las jornadas</a></li>
+    </ul>
+</nav>
+<div class="containerinfo">
+    <h2 class="h2titulosecciones">Inscripción</h2>
+    <form action="inscripcion.php" method="post">
+        <H4>DATOS PERSONALES:</H4>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="fname" pattern="[a-zA-Z]{2,50}" required><br><br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="lname" pattern="[a-zA-Z]{2,128}" required><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="tel" pattern="[0-9]{9}" title="El teléfono debe estar formado por 9 números" required><br><br>
+        <label for="foto">Foto</label>
+        <input type="file" id="foto" name="foto"><br>
+        <h4>PERFIL DEL USUARIO:</h4>
+        <label for="motivos">¿Qué te motiva a inscribirte?</label><br>
+        <textarea id="motivos" name="motivos" rows="5" cols="60" required>
+        </textarea><br>
+        <label for="profesion">Actividad profesional:</label><br>
+        <input list="profesiones" name="profesion" id="profesion" required>
+        <datalist id="profesiones">
+            <option value="Estudiante Bachillerato">
+            <option value="Estudiante Universitario">
+            <option value="Doctorado">
+            <option value="Profesional informático">
+            <option value="Profesor">
+            <option value="Otros">
+        </datalist><br><br>
+        <label for="taller">Talleres de interés: (pulsa ctrl para seleccionar varios)</label><br>
+        <select name="taller" id="taller" size=9 multiple required>
+            <option value="conferenciainaugural">11/03 09h. Conferencia Inaugural</option>
+            <option value="mesadebate">11/03 12h. Mesa de débate: enfocar en la era del periodismo desenfocado</option>
+            <option value="durarealidadficcion">11/03 16h. De la más dura realidad a la ficción. Periodismo social y literatura</option>
+            <option value="retosfotoperiodismo">11/03 18h. Los retos del fotoperiodismo en el mundo actual</option>
+            <option value="historiascorresponsal">12/03 10h. Historias de un corresponsal</option>
+            <option value="informativos">12/03 12h. Informativos en TV: ¿reinvención o extinción?</option>
+            <option value="periodismoterritorio">13/03 10h. El periodismo del territorio</option>
+            <option value="guisocomo">13/03 10h. Yo me lo guiso, yo me lo como </option>
+            <option value="ricobiencontado">13/03 10h. Rico, rico y bien contado</option>
+            </select><br><br>
+        Indica en qué fecha asistirás:<br>
+        <input type="radio" id="tresdias" name="asistir" required value="tresdias">
+        <label for="tresdias">Asistiré los tres días</label><br>
+        <input type="radio" id="11marzo" name="asistir" value="11marzo">
+        <label for="11marzo">Asistiré el 11 de marzo</label><br>
+        <input type="radio" id="12marzo" name="asistir" value="12marzo">
+        <label for="12marzo">Asistiré el 12 de marzo</label><br>
+        <input type="radio" id="13marzo" name="asistir" value="13marzo">
+        <label for="13marzo">Asistiré el 13 de marzo</label><br><br>
+        <input type="checkbox" id="avisolegal" name="avisolegal" required>
+        <label for="avisolegal">He leído y acepto la política de privacidad y el aviso legal</label><br><br>
+        <label for="enviar"></label>
+        <input type="submit" id="enviar" value="Inscribirme" name="enviar"><br>
+    </form>
+</div>
+
+<footer>
+    <div class=bloquefooter>
+        <div class="footertext">Actividad realizada por Paco Cerezo Baviera para la asignatura de Lenguajes de Marcas</div>
+        <div class="footertext">Primer trimestre 2022/23</div>
+    </div>
+</footer>
+
+</body>
+
+</html>
